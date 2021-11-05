@@ -1,0 +1,10 @@
+group:
+  repos: |
+    Nacho114/repo1@dev
+    Nacho114/repo2@dev
+  files:
+    - source: mobile-browser-based-version/
+      dest: mobile-browser-based-version/
+      exclude: |
+        ignore.yml
+      deleteOrphaned: true
